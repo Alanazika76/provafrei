@@ -163,4 +163,4 @@ app.delete('/login/:id', async(req, resp) => {
 
 
 app.listen(process.env.PORT,
-            x => console.log(`Subiu a Api, respeita! ${process.env.PORT}`))
+            x => console.log(`Subiu! ${process.env.PORT}`))
